@@ -2,15 +2,15 @@ PODS:
   - XHAlertController (1.0.0)
 
 DEPENDENCIES:
-  - XHAlertController (from `..`)
+  - XHAlertController (from `../..`)
 
 EXTERNAL SOURCES:
   XHAlertController:
-    :path: ".."
+    :path: "../.."
 
 SPEC CHECKSUMS:
-  XHAlertController: 189f78a9c36870e12c13955cf294752d775cf1f7
+  XHAlertController: d73f6bcdddb825e4cab56a840e79864237d5588b
 
-PODFILE CHECKSUM: c13465c7adf6ebfcf88e5e430609635ea6856a40
+PODFILE CHECKSUM: e52f2259f08563119f5bb1b786a04f9c67fc9396
 
 COCOAPODS: 1.16.2

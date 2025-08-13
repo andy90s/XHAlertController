@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   # 2. 源代码配置
   s.ios.deployment_target = "12.0"
   s.source           = { :git => "https://github.com/your_username/XHAlertController.git", :tag => "#{s.version}" }
-  s.source_files     = "Sources/**/*.{swift}"
+  s.source_files     = "XHAlertController/Sources/**/*.{swift}"
   
   # 3. 依赖项配置 (可选)
   # s.dependency "Alamofire", "~> 5.4"

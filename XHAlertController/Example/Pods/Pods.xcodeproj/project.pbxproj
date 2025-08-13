@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C00762C40A37901765390F0A318ED0F /* CommonModalController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFBDB25217C57DE74C84C9037E11161 /* CommonModalController.swift */; };
+		0C1886EE01E2E442B038E7F66B6590E4 /* XHAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979591665CA5170F9FDEC911C4D1C6D2 /* XHAlertController.swift */; };
 		0E42AAFFEB72F1FE6E1CACABAB1C7847 /* Pods-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D7C498FA339E02BD53ECB8916CEA8E /* Pods-Example-dummy.m */; };
-		0F51C8964CC6AF2E13D85D1EDB61E197 /* XHAlertController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B0781097A4DA8D5A577DAF3C3F6351DC /* XHAlertController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F51C8964CC6AF2E13D85D1EDB61E197 /* XHAlertController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EF9124602497A19B3A2E9102C179063 /* XHAlertController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		11B251DF3C2F4314799BC33649C6E34A /* Pods-Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7825A90E082A1582EB16256B0E722B3F /* Pods-Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16949F3B6365B2E1430D39B98FC18B0E /* CustomPresentAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8483E51989675E0150709CBB13CDBC0 /* CustomPresentAnimator.swift */; };
 		2A5221280B9DEE23B3069F33A08BADE2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
-		2FEB24917B7888A3FAFBD25345B51890 /* XHAlertController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BE4754BCCC378932BCE296A080ADCAB6 /* XHAlertController-dummy.m */; };
-		42C36EC511301649852996C2103B2016 /* CustomPresentAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AF408800EA04C5F942B73211B36AF0 /* CustomPresentAnimator.swift */; };
-		6CA497B3AC97BE3D8AFCE2A3979B0C30 /* XHAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C37AF5E4837E95FC5B4494E2C4A90E2 /* XHAlertController.swift */; };
+		2FEB24917B7888A3FAFBD25345B51890 /* XHAlertController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E037C0583BA2C3FB79B8E80B6CE62552 /* XHAlertController-dummy.m */; };
 		C61D51BAE7FD2C779A9613E3C812F3E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
-		DB5DD0AD32E20438EB35C2F656A4C9F1 /* CommonModalController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0E90CBFC0031DCF7AE178DEF1519AC /* CommonModalController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,31 +29,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B777E991B1C1A1872767500B413FA74 /* XHAlertController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XHAlertController-Info.plist"; sourceTree = "<group>"; };
+		18F281941419DC250BD061452DB354BE /* XHAlertController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XHAlertController.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1F667CC0E19EAF34E5A4119E2121F585 /* Pods-Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Example"; path = Pods_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		219180ACE96D024F6E845CA056158AB8 /* XHAlertController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XHAlertController.debug.xcconfig; sourceTree = "<group>"; };
 		243410B9535472556EA4BB6DBC133A0D /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
 		270629408F9F47445A7964A1704D0D37 /* XHAlertController */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XHAlertController; path = XHAlertController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2C37AF5E4837E95FC5B4494E2C4A90E2 /* XHAlertController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XHAlertController.swift; path = Sources/XHAlertController.swift; sourceTree = "<group>"; };
+		2E8C36DD764CEC5EA49D2F6EA390578C /* XHAlertController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XHAlertController.release.xcconfig; sourceTree = "<group>"; };
 		31C1D37707DFAA5E6A164BCC07834264 /* Pods-Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-Info.plist"; sourceTree = "<group>"; };
 		35C305D3797C284E6F5BAA1D3E6F9BF8 /* Pods-Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Example.modulemap"; sourceTree = "<group>"; };
 		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		441854E35F81731E63E53DC7E4EEAD9D /* Pods-Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6AD34620C00BC685A89E7029BCBCE7B2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		7825A90E082A1582EB16256B0E722B3F /* Pods-Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Example-umbrella.h"; sourceTree = "<group>"; };
-		942237D047813C26A4A0F7B7C5562FF0 /* XHAlertController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XHAlertController-prefix.pch"; sourceTree = "<group>"; };
-		957CA356AC6F06B28A792B34643AD55C /* XHAlertController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XHAlertController.debug.xcconfig; sourceTree = "<group>"; };
+		7EF9124602497A19B3A2E9102C179063 /* XHAlertController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XHAlertController-umbrella.h"; sourceTree = "<group>"; };
+		979591665CA5170F9FDEC911C4D1C6D2 /* XHAlertController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XHAlertController.swift; path = XHAlertController/Sources/XHAlertController.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AB0E90CBFC0031DCF7AE178DEF1519AC /* CommonModalController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CommonModalController.swift; path = Sources/CommonModalController.swift; sourceTree = "<group>"; };
-		AF4B23CB04291A5D075A71CD80F0D378 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		AAC79B005805D18898CED5BE7BABADBD /* XHAlertController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XHAlertController-prefix.pch"; sourceTree = "<group>"; };
 		AFECBC24E09D0D25F822C27BD944AFD4 /* Pods-Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-frameworks.sh"; sourceTree = "<group>"; };
-		B0781097A4DA8D5A577DAF3C3F6351DC /* XHAlertController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XHAlertController-umbrella.h"; sourceTree = "<group>"; };
 		B45138496B85A072654D1D0F8EBBEDE5 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
-		BCA7004083687DFBC7F6B63A1682D688 /* XHAlertController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XHAlertController.modulemap; sourceTree = "<group>"; };
-		BE4754BCCC378932BCE296A080ADCAB6 /* XHAlertController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XHAlertController-dummy.m"; sourceTree = "<group>"; };
-		CAADEB73F5BF8D7F7DC6E5E251A92A51 /* XHAlertController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XHAlertController-Info.plist"; sourceTree = "<group>"; };
 		D6D7C498FA339E02BD53ECB8916CEA8E /* Pods-Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Example-dummy.m"; sourceTree = "<group>"; };
-		D7AF408800EA04C5F942B73211B36AF0 /* CustomPresentAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomPresentAnimator.swift; path = Sources/CustomPresentAnimator.swift; sourceTree = "<group>"; };
-		DDF9F58359B8E78F711BC6D7450681EC /* XHAlertController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XHAlertController.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		E4E32293263527ACBDEB052FF1336AB0 /* XHAlertController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XHAlertController.release.xcconfig; sourceTree = "<group>"; };
+		D8483E51989675E0150709CBB13CDBC0 /* CustomPresentAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomPresentAnimator.swift; path = XHAlertController/Sources/CustomPresentAnimator.swift; sourceTree = "<group>"; };
+		E037C0583BA2C3FB79B8E80B6CE62552 /* XHAlertController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XHAlertController-dummy.m"; sourceTree = "<group>"; };
 		EA21B344259B58996DB73382B1B1521F /* Pods-Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		EDFBDB25217C57DE74C84C9037E11161 /* CommonModalController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CommonModalController.swift; path = XHAlertController/Sources/CommonModalController.swift; sourceTree = "<group>"; };
+		F6902F151D9CC10296DDE86F8AC9552B /* XHAlertController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XHAlertController.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,49 +76,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1C7A6073E93354F85102CE1EE83407C3 /* Pod */ = {
+		0A7D857457C4969DDF1DA1596084D28A /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				AF4B23CB04291A5D075A71CD80F0D378 /* README.md */,
-				DDF9F58359B8E78F711BC6D7450681EC /* XHAlertController.podspec */,
+				6AD34620C00BC685A89E7029BCBCE7B2 /* README.md */,
+				18F281941419DC250BD061452DB354BE /* XHAlertController.podspec */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		7A9595D4B8839B5B53F9624034E1E69E /* Development Pods */ = {
+		6928CC67A68318DF166E38C3CEFD97DA /* XHAlertController */ = {
 			isa = PBXGroup;
 			children = (
-				9AF0AF5F7129FD9F42D25798B02CF35E /* XHAlertController */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		95112BB3C72A5F52129C211E1D3E2AFA /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				BCA7004083687DFBC7F6B63A1682D688 /* XHAlertController.modulemap */,
-				BE4754BCCC378932BCE296A080ADCAB6 /* XHAlertController-dummy.m */,
-				CAADEB73F5BF8D7F7DC6E5E251A92A51 /* XHAlertController-Info.plist */,
-				942237D047813C26A4A0F7B7C5562FF0 /* XHAlertController-prefix.pch */,
-				B0781097A4DA8D5A577DAF3C3F6351DC /* XHAlertController-umbrella.h */,
-				957CA356AC6F06B28A792B34643AD55C /* XHAlertController.debug.xcconfig */,
-				E4E32293263527ACBDEB052FF1336AB0 /* XHAlertController.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/XHAlertController";
-			sourceTree = "<group>";
-		};
-		9AF0AF5F7129FD9F42D25798B02CF35E /* XHAlertController */ = {
-			isa = PBXGroup;
-			children = (
-				AB0E90CBFC0031DCF7AE178DEF1519AC /* CommonModalController.swift */,
-				D7AF408800EA04C5F942B73211B36AF0 /* CustomPresentAnimator.swift */,
-				2C37AF5E4837E95FC5B4494E2C4A90E2 /* XHAlertController.swift */,
-				1C7A6073E93354F85102CE1EE83407C3 /* Pod */,
-				95112BB3C72A5F52129C211E1D3E2AFA /* Support Files */,
+				EDFBDB25217C57DE74C84C9037E11161 /* CommonModalController.swift */,
+				D8483E51989675E0150709CBB13CDBC0 /* CustomPresentAnimator.swift */,
+				979591665CA5170F9FDEC911C4D1C6D2 /* XHAlertController.swift */,
+				0A7D857457C4969DDF1DA1596084D28A /* Pod */,
+				D9D79AD81A24E85B6E8432CC1563DD44 /* Support Files */,
 			);
 			name = XHAlertController;
-			path = ../..;
+			path = ../../..;
 			sourceTree = "<group>";
 		};
 		9BDBD95ED116334D1B2835202D8D3060 /* Pods-Example */ = {
@@ -147,6 +124,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		B87D7B170CFEF2022EA7F8463DE03E49 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6928CC67A68318DF166E38C3CEFD97DA /* XHAlertController */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		CE2E825F08D3AD0FD76E6D78D7512ED0 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -159,7 +144,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				7A9595D4B8839B5B53F9624034E1E69E /* Development Pods */,
+				B87D7B170CFEF2022EA7F8463DE03E49 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				A739C6A2E7BA8BD33F46DB0987138805 /* Products */,
 				CE2E825F08D3AD0FD76E6D78D7512ED0 /* Targets Support Files */,
@@ -172,6 +157,21 @@
 				E4801F62A6B08CD9B5410329F1A18FDE /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D9D79AD81A24E85B6E8432CC1563DD44 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F6902F151D9CC10296DDE86F8AC9552B /* XHAlertController.modulemap */,
+				E037C0583BA2C3FB79B8E80B6CE62552 /* XHAlertController-dummy.m */,
+				0B777E991B1C1A1872767500B413FA74 /* XHAlertController-Info.plist */,
+				AAC79B005805D18898CED5BE7BABADBD /* XHAlertController-prefix.pch */,
+				7EF9124602497A19B3A2E9102C179063 /* XHAlertController-umbrella.h */,
+				219180ACE96D024F6E845CA056158AB8 /* XHAlertController.debug.xcconfig */,
+				2E8C36DD764CEC5EA49D2F6EA390578C /* XHAlertController.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "XHAlertController/Example/Pods/Target Support Files/XHAlertController";
 			sourceTree = "<group>";
 		};
 		E4801F62A6B08CD9B5410329F1A18FDE /* iOS */ = {
@@ -293,9 +293,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB5DD0AD32E20438EB35C2F656A4C9F1 /* CommonModalController.swift in Sources */,
-				42C36EC511301649852996C2103B2016 /* CustomPresentAnimator.swift in Sources */,
-				6CA497B3AC97BE3D8AFCE2A3979B0C30 /* XHAlertController.swift in Sources */,
+				0C00762C40A37901765390F0A318ED0F /* CommonModalController.swift in Sources */,
+				16949F3B6365B2E1430D39B98FC18B0E /* CustomPresentAnimator.swift in Sources */,
+				0C1886EE01E2E442B038E7F66B6590E4 /* XHAlertController.swift in Sources */,
 				2FEB24917B7888A3FAFBD25345B51890 /* XHAlertController-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -361,7 +361,7 @@
 		};
 		2048C4C082D55CAEEDCD2CD37EA46E01 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 957CA356AC6F06B28A792B34643AD55C /* XHAlertController.debug.xcconfig */;
+			baseConfigurationReference = 219180ACE96D024F6E845CA056158AB8 /* XHAlertController.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -440,7 +440,7 @@
 		};
 		7AE407D46B002346749883065B5A565B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E4E32293263527ACBDEB052FF1336AB0 /* XHAlertController.release.xcconfig */;
+			baseConfigurationReference = 2E8C36DD764CEC5EA49D2F6EA390578C /* XHAlertController.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
