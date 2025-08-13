@@ -1,0 +1,6 @@
+framework module XHAlertController {
+  umbrella header "XHAlertController-umbrella.h"
+
+  export *
+  module * { export * }
+}
